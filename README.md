@@ -24,7 +24,7 @@ app build.gradle 中添加
  * 是否 任务完成, 不再需要服务运行?
  * @return 应当停止服务, true; 应当启动服务, false; 无法判断, null.
  */
-boolean isShouldStopService();
+override fun isShouldStopService(intent: Intent, flags: Int, startId: Int): Boolean
 
     /**
      * 任务是否正在运行?
