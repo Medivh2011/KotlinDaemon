@@ -17,7 +17,7 @@ app build.gradle 中添加
     	        compile 'com.github.Medivh2011:KotlinDaemon:1.1'
     	}
  ```
-### 2. 继承 AbsWorkService, 实现 6 个抽象方法
+### 2. 继承 AbsWorkService, 实现 6 个抽象函数
 
 ```
 /**
